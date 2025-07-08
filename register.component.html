@@ -1,0 +1,10 @@
+<div class="register-container">
+  <div class="register-box">
+    <h2>Register Employee</h2>
+    <form (submit)="register(empIdInput.value, startDestInput.value)">
+      <input type="text" placeholder="Employee ID" #empIdInput required />
+      <input type="text" placeholder="Start Destination" #startDestInput required />
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+.home-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f5f8fa;
+  height: 100vh;
+}
+
+.home-header {
+  margin-bottom: 30px;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #004aad;
+}
+
+.home-nav {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #004aad;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003180;
+}
+
+.home-content {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}

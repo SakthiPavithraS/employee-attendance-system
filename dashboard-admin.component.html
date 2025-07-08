@@ -1,0 +1,51 @@
+<div class="admin-dashboard">
+  <nav class="nav-menu">
+    <a href="#registered">Registered Employees</a>
+    <a href="#attendance">Attendance Dashboard</a>
+    <a href="#report">Fare Report</a>
+  </nav>
+
+  <section id="registered">
+    <h2>Registered Employees</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Employee ID</th>
+          <th>Name</th>
+          <th>Start Location</th>
+          <th>Destination</th>
+        </tr>
+      </thead>
+      <tbody #registeredTable></tbody>
+    </table>
+  </section>
+
+  <section id="attendance">
+    <h2>Attendance Dashboard</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Employee ID</th>
+          <th>Date</th>
+          <th>Session</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody #attendanceTable></tbody>
+    </table>
+  </section>
+
+  <section id="report">
+    <h2>Fare Report</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Employee ID</th>
+          <th>Days Traveled</th>
+          <th>Total Fare</th>
+        </tr>
+      </thead>
+      <tbody #reportTable></tbody>
+    </table>
+  </section>
+</div>

@@ -1,0 +1,65 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/futuristic-technology-background-design_23-2148503793.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 160px;
+  margin-bottom: 25px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #003180;
+}
+
+/* Space between inputs and button */
+.space-between {
+  height: 16px;
+}
+
+.space-between-large {
+  height: 24px;
+}
+.logo {
+  display: block;
+  margin: 0 auto 25px auto; /* center the image with space below */
+  max-width: 160px;
+  height: auto;
+  border-radius: 8px; /* optional: rounded edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional: slight shadow */
+}
